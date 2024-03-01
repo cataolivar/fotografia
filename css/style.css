@@ -25,8 +25,8 @@ header {
     justify-content: center;
 }
 
-/*main*/
-main {
+/*main index*/
+.mainIndex {
     display: grid;
     grid-template-rows: 500px 500px 500px 500px 600px 600px 600px 600px;
 }
@@ -34,7 +34,7 @@ main {
 .imagenesHorizontales {
     width: 600px;
     height: 400px;
-    transition: height 2s, width 1s;
+    transition: height 2s, width 2s;
 }
 
 .imagenesHorizontales:hover {
@@ -45,7 +45,7 @@ main {
 .imagenesVerticales {
     height: 500px;
     width: 400px;
-    transition: height 2s, width 1s;
+    transition: height 2s, width 2s;
 }
 
 .imagenesVerticales:hover {
@@ -56,7 +56,7 @@ main {
 .imagenesCuadradas {
     height: 500px;
     width: 500px;
-    transition: height 2s, width 1s;
+    transition: height 2s, width 2s;
 }
 
 .imagenesCuadradas:hover {
@@ -75,6 +75,18 @@ section {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+}
+
+.verMasdiv{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 50px 50px;
+}
+
+/*index futbol*/
+.mainOtros{
+display: flex;
+justify-content: center;
 }
 
 /*footer */
