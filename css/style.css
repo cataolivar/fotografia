@@ -1,0 +1,96 @@
+/*header*/
+header {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #edeaeb;
+}
+
+.titulo {
+    font-family: "Montserrat", sans-serif;
+    color: #b5acaf;
+    display: flex;
+    justify-content: center;
+}
+
+.cursiva {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+}
+
+/*main*/
+main {
+    display: grid;
+    grid-template-rows: 500px 500px 500px 500px 600px 600px 600px 600px;
+}
+
+.imagenesHorizontales {
+    width: 600px;
+    height: 400px;
+    transition: height 2s, width 1s;
+}
+
+.imagenesHorizontales:hover {
+    width: 650px;
+    height: 450px;
+}
+
+.imagenesVerticales {
+    height: 500px;
+    width: 400px;
+    transition: height 2s, width 1s;
+}
+
+.imagenesVerticales:hover {
+    height: 550px;
+    width: 450px;
+}
+
+.imagenesCuadradas {
+    height: 500px;
+    width: 500px;
+    transition: height 2s, width 1s;
+}
+
+.imagenesCuadradas:hover {
+    height: 550px;
+    width: 550px;
+}
+
+/*section*/
+section {
+    font-family: "Merriweather", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sectionImg {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/*footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edeaeb;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+    width: 50px;
+}
